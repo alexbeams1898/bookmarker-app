@@ -1,0 +1,85 @@
+@import "config";
+
+body {
+  font-family: $main-font;
+  line-height: 2rem;
+  background-color: $background-color;
+}
+
+header {
+  h1 {
+    color: rgb(145, 43, 36);
+    text-shadow: 1px 1px 1.5px #000000;
+  }
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+main {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 0 auto;
+  width: 50vw;
+  text-align: center;
+  background-color: #000000;
+  box-shadow: 4px 4px 60px #0a093b;
+  border-radius: 10px;
+}
+
+.bookmark {
+  background-color: olive;
+  text-align: center;
+  width: 50vw;
+  margin: 40px auto;
+  border: 5px double black;
+  h3 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 3em;
+  }
+  a {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9em;
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    &:hover {
+    }
+  }
+}
+
+form {
+  padding: 7px;
+  display: inline-block;
+  label {
+    float: left;
+    letter-spacing: 2.4px;
+  }
+  input[type="text"] {
+    padding: 5px;
+    margin: 10px;
+    width: 90%;
+  }
+  button {
+    background-color: #97ca9b; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    &:hover {
+      color: rgb(185, 62, 62);
+    }
+  }
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+}

@@ -1,0 +1,68 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 2rem;
+  background-color: beige; }
+
+header {
+  padding-left: 20px;
+  padding-bottom: 50px; }
+  header h1 {
+    color: #912b24;
+    text-shadow: 1px 1px 1.5px #000000; }
+
+main {
+  color: white;
+  padding: 15px;
+  margin: 0 auto;
+  width: 50vw;
+  text-align: center;
+  background-color: #000000;
+  box-shadow: 4px 4px 60px #0a093b;
+  border-radius: 10px; }
+
+.bookmark {
+  background-color: olive;
+  text-align: center;
+  width: 50vw;
+  margin: 40px auto;
+  border: 5px double black; }
+  .bookmark h3 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 3em; }
+  .bookmark a {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9em;
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black; }
+
+form {
+  padding: 7px;
+  display: inline-block; }
+  form label {
+    float: left;
+    letter-spacing: 2.4px; }
+  form input[type="text"] {
+    padding: 5px;
+    margin: 10px;
+    width: 90%; }
+  form button {
+    background-color: #97ca9b;
+    /* Green */
+    border: none;
+    border-radius: 5px;
+    color: black;
+    margin-top: 30px;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; }
+    form button:hover {
+      color: #b93e3e; }
+
+footer {
+  height: 50px;
+  text-align: center; }
